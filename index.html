@@ -3,18 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Гавань — котеджне містечко на воді</title>
-  <meta name="description" content="Котеджне містечко «Гавань» — затишна спільнота на воді. ТОВ «ОО «Гавань» забезпечує освітлення, електроенергію, охорону, відеоспостереження та догляд за територією для мешканців." />
+  <title>Гавань — котеджне містечко на річці Десна · ділянки біля води</title>
+  <meta name="description" content="Котеджне містечко «Гавань» на березі Десни: земельні ділянки на першій лінії води, готова інфраструктура, власний пляж, дитячий майданчик і цілодобова охорона. Вільні ділянки — за запитом." />
   <meta name="theme-color" content="#0E1418" />
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Гавань — котеджне містечко на воді" />
-  <meta property="og:description" content="Затишна спільнота на воді. Повний комплекс послуг з обслуговування території для мешканців містечка «Гавань»." />
-  <meta property="og:image" content="assets/img/hero-water.jpg" />
+  <meta property="og:title" content="Гавань — котеджне містечко на річці Десна" />
+  <meta property="og:description" content="Ділянки біля води, готова інфраструктура, власний пляж і цілодобова охорона на березі Десни." />
+  <meta property="og:image" content="assets/img/hero.jpg" />
 
-  <!-- Fonts: Cormorant Garamond (display) + Manrope (body), Cyrillic subset -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap&subset=cyrillic,cyrillic-ext,latin" rel="stylesheet" />
@@ -37,14 +35,14 @@
 
       <nav class="nav" aria-label="Головна навігація">
         <a href="#about">Про містечко</a>
+        <a href="#plots">Ділянки</a>
         <a href="#services">Послуги</a>
         <a href="#gallery">Галерея</a>
         <a href="#news">Новини</a>
-        <a href="#docs">Документи</a>
         <a href="#contact">Контакти</a>
       </nav>
 
-      <a class="btn btn--ghost header__cta" href="#contact">Зв’язатися</a>
+      <a class="btn btn--ghost header__cta" href="#plots">Вільні ділянки</a>
       <button class="burger" aria-label="Меню" aria-controls="nav"><span></span><span></span><span></span></button>
     </div>
   </header>
@@ -54,26 +52,27 @@
     <!-- ============ HERO ============ -->
     <section class="hero" id="hero">
       <div class="hero__bg">
-        <img src="assets/img/hero-water.jpg" alt="Спокійна вода біля котеджного містечка «Гавань»" fetchpriority="high" />
+        <img src="assets/img/hero.jpg" alt="Котеджне містечко «Гавань» на березі річки Десна на заході сонця" fetchpriority="high" />
       </div>
       <div class="wrap hero__content">
-        <span class="eyebrow">Котеджне містечко на воді</span>
+        <span class="eyebrow">Котеджне містечко на річці Десна</span>
         <h1 class="h-xl">
           <span class="line"><span>Ваша тиха</span></span>
           <span class="line"><span><em class="accent">гавань</em></span></span>
         </h1>
         <p class="lead hero__lead">
-          Затишне містечко серед води та зелені, де про спокій, безпеку
-          й добробут кожного мешканця дбають щодня — цілий рік.
+          Сучасне котеджне містечко на мальовничому березі Десни: ділянки на
+          першій лінії води, готові комунікації, власний пляж і цілодобова
+          охорона — далеко від міської метушні.
         </p>
         <div class="hero__actions">
-          <a class="btn btn--solid" href="#services">Наші послуги <span class="ar">→</span></a>
-          <a class="btn" href="#about">Про містечко</a>
+          <a class="btn btn--solid" href="#plots">Вільні ділянки <span class="ar">→</span></a>
+          <a class="btn" href="#gallery">Переглянути містечко</a>
         </div>
         <div class="hero__meta">
-          <div class="item"><b>24/7</b><small>Охорона&nbsp;території</small></div>
-          <div class="item"><b>365</b><small>Днів&nbsp;догляду</small></div>
-          <div class="item"><b>1</b><small>Договір&nbsp;— всі&nbsp;послуги</small></div>
+          <div class="item"><b>На воді</b><small>Ділянки першої&nbsp;лінії</small></div>
+          <div class="item"><b>Власний</b><small>Пляж і набережна</small></div>
+          <div class="item"><b>24/7</b><small>Охорона території</small></div>
         </div>
       </div>
       <div class="scrollcue"><span>Гортайте</span><i></i></div>
@@ -86,110 +85,167 @@
         <div class="about__grid">
           <div class="about__text reveal">
             <span class="eyebrow">Про містечко</span>
-            <h2 class="h-lg">Місце, де хочеться<br><em class="serif">залишитися</em></h2>
+            <h2 class="h-lg">Життя на березі<br><em class="serif">Десни</em></h2>
             <p>
-              «Гавань» — це затишний масив приватних будинків біля води. Як справжня
-              гавань дає кораблю прихисток, наше містечко дарує мешканцям відчуття
-              спокою, приватності та впевненості у завтрашньому дні.
+              «Гавань» — сучасне котеджне містечко на мальовничому березі річки
+              Десна. Тут поєднуються приватність заміського життя, краса природи
+              та зручність уже готової інфраструктури.
             </p>
             <p>
-              Обслуговуюча організація <b class="gold">ТОВ «ОО «Гавань»</b> надає
-              мешканцям масиву повний комплекс послуг на підставі єдиного
-              Договору про надання послуг — від освітлення вулиць до цілодобової
-              охорони та догляду за спільною територією.
+              Містечко обслуговує компанія <b class="gold">ТОВ «ОО «Гавань»</b>:
+              дороги, освітлення, охорона та благоустрій — усе під єдиним
+              договором. Ви просто живете біля води, а про решту дбаємо ми.
             </p>
             <div class="pillars">
-              <div><b>Спокій</b><small>Тиха приватна територія<br>під постійним наглядом</small></div>
-              <div><b>Безпека</b><small>Пропускний режим<br>і відеоспостереження</small></div>
-              <div><b>Турбота</b><small>Догляд за дорогами,<br>освітленням і чистотою</small></div>
+              <div><b>Вода</b><small>Перша лінія Десни,<br>власний пляж і набережна</small></div>
+              <div><b>Безпека</b><small>Пропускний режим<br>і відеонагляд 24/7</small></div>
+              <div><b>Готовність</b><small>Дороги, освітлення<br>та комунікації вже є</small></div>
             </div>
           </div>
 
           <figure class="about__figure reveal" style="--d:.1s">
-            <span class="badge">Наше містечко</span>
+            <span class="badge">Реальний вид</span>
             <div class="frame">
-              <img src="assets/img/havan-real.jpeg" alt="Вид з висоти на котеджне містечко «Гавань» біля води" />
+              <img src="assets/img/aerial-canal.jpg" alt="Краєвид котеджного містечка «Гавань» з висоти — річка Десна та будинки на березі" />
             </div>
-            <figcaption><b>«Гавань» —</b> приватні будинки вздовж водойми</figcaption>
+            <figcaption><b>«Гавань» —</b> краєвид містечка з висоти, річка Десна</figcaption>
           </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VISION ============ -->
+    <section class="section vision" id="vision">
+      <span class="ghost" aria-hidden="true">02</span>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Перспектива</span>
+          <h2 class="h-lg">Яким стане ваше <em class="serif">життя тут</em></h2>
+          <p class="lead" style="margin-top:22px">
+            Затишні будинки біля води, доглянута набережна, власний пляж і місця
+            для відпочинку всією родиною — так виглядатиме містечко після забудови.
+          </p>
+        </div>
+
+        <figure class="vision__feature reveal" style="--d:.05s">
+          <span class="tag">Візуалізація</span>
+          <img src="assets/img/vision.jpg" alt="Візуалізація забудованого котеджного містечка «Гавань» біля води" loading="lazy" />
+          <figcaption>Генеральний план у житті — будинки, набережна та пляж</figcaption>
+        </figure>
+
+        <div class="vision__pair reveal" style="--d:.1s">
+          <figure>
+            <img src="assets/img/cottage-dusk.jpg" alt="Сучасний будинок біля води з власним причалом увечері" loading="lazy" />
+            <figcaption><span>Дім біля води</span>Власний причал і вихід до річки</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/beach.jpg" alt="Власний пляж котеджного містечка біля річки" loading="lazy" />
+            <figcaption><span>Відпочинок</span>Власний пляж і зона релаксу</figcaption>
+          </figure>
+        </div>
+        <p class="vision__note reveal">Зображення — художня візуалізація майбутнього вигляду містечка.</p>
+      </div>
+    </section>
+
+    <!-- ============ PLOTS / MASTER PLAN ============ -->
+    <section class="section plots" id="plots">
+      <span class="ghost" aria-hidden="true">03</span>
+      <div class="wrap">
+        <div class="plan__grid">
+          <div class="plan__text reveal">
+            <span class="eyebrow">Земельні ділянки</span>
+            <h2 class="h-lg">Вільні ділянки<br><em class="serif">біля води</em></h2>
+            <p>
+              У містечку доступні земельні ділянки на першій та наступних лініях
+              від води. Частина ділянок уже продана або заброньована — актуальну
+              наявність і вартість уточнюйте у нас.
+            </p>
+
+            <ul class="legend">
+              <li><span class="chip" style="background:#9fd6ef"></span><b>Вільні ділянки</b>&nbsp;— доступні до продажу</li>
+              <li><span class="chip" style="background:#e0392b"></span><b>Заброньовані</b>&nbsp;— тимчасово зарезервовані</li>
+              <li><span class="chip" style="background:#5fa83a"></span><b>Продані ділянки</b></li>
+              <li><span class="chip" style="background:#cfe39a"></span><b>Прибережна зона</b></li>
+              <li><span class="chip" style="background:#efe6c2"></span><b>Загальна зона</b></li>
+            </ul>
+
+            <p class="plan__extra">
+              На території також — <span class="gold">власний пляж</span>,
+              <span class="gold">дитячий майданчик</span> та берегоукріплення
+              вздовж річки.
+            </p>
+
+            <div class="plan__cta">
+              <a class="btn btn--solid" href="#contact">Дізнатися про ділянки <span class="ar">→</span></a>
+              <span class="price">Вартість — за запитом</span>
+            </div>
+          </div>
+
+          <div class="plan__map reveal" style="--d:.1s">
+            <a href="assets/img/plan.jpg" target="_blank" rel="noopener noreferrer" aria-label="Відкрити генеральний план у повному розмірі">
+              <img src="assets/img/plan.jpg" alt="Генеральний план котеджного містечка «Гавань» з позначенням вільних, проданих і заброньованих ділянок" loading="lazy" />
+            </a>
+            <p class="plan__cap">Генеральний план КМ «Гавань», 28.05.2025 · <a href="assets/img/plan.jpg" target="_blank" rel="noopener noreferrer">відкрити повністю</a></p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ============ SERVICES ============ -->
     <section class="section services" id="services">
-      <span class="ghost" aria-hidden="true">02</span>
+      <span class="ghost" aria-hidden="true">04</span>
       <div class="wrap">
         <div class="services__head">
           <div class="section-head reveal">
-            <span class="eyebrow">Що ми робимо</span>
-            <h2 class="h-lg">Послуги обслуговування</h2>
+            <span class="eyebrow">Що включено</span>
+            <h2 class="h-lg">Інфраструктура та сервіс</h2>
           </div>
           <p class="lead reveal" style="--d:.1s">
-            Один договір охоплює все необхідне для комфортного життя в містечку.
-            Ми беремо на себе турботи про спільну територію — щоб ви просто
-            насолоджувалися домом.
+            Один договір з обслуговуючою компанією охоплює все необхідне для
+            комфортного життя в містечку — від доріг до охорони. Ви насолоджуєтеся
+            домом, ми дбаємо про територію.
           </p>
         </div>
 
         <div class="cards">
-          <!-- 1 -->
           <article class="card reveal">
             <div class="card__no">01</div>
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.3 1 2.5h6c0-1.2.3-1.8 1-2.5A6 6 0 0 0 12 3Z"/></svg>
-            </div>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.3 1 2.5h6c0-1.2.3-1.8 1-2.5A6 6 0 0 0 12 3Z"/></svg></div>
             <h3>Освітлення території</h3>
-            <p>Підтримуємо освітлення доріг, проїздів та зон загального користування у темну пору доби.</p>
+            <p>Освітлення доріг, проїздів та зон загального користування у темну пору доби.</p>
           </article>
-          <!-- 2 -->
           <article class="card reveal" style="--d:.06s">
             <div class="card__no">02</div>
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>
-            </div>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg></div>
             <h3>Електроенергія</h3>
-            <p>Закуповуємо та забезпечуємо постачання електроенергії для потреб мешканців містечка.</p>
+            <p>Закупівля та постачання електроенергії для потреб мешканців містечка.</p>
           </article>
-          <!-- 3 -->
           <article class="card reveal" style="--d:.12s">
             <div class="card__no">03</div>
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 3v18M7 3l-3 18M17 3l3 18M4 9h16M3.5 15h17"/></svg>
-            </div>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18M7 3l-3 18M17 3l3 18M4 9h16M3.5 15h17"/></svg></div>
             <h3>Утримання інфраструктури</h3>
-            <p>Доглядаємо за дорогами, лініями електропередач і трансформаторними підстанціями.</p>
+            <p>Догляд за дорогами, лініями електропередач і трансформаторними підстанціями.</p>
           </article>
-          <!-- 4 -->
           <article class="card reveal">
             <div class="card__no">04</div>
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
-            </div>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
             <h3>Пропускний режим</h3>
-            <p>Облаштований пропускний пункт і контроль доступу на територію містечка.</p>
+            <p>Пропускний пункт і контроль доступу на закриту територію містечка.</p>
           </article>
-          <!-- 5 -->
           <article class="card reveal" style="--d:.06s">
             <div class="card__no">05</div>
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M3 8h11v8H3zM14 11l5-3v8l-5-3"/><circle cx="8.5" cy="12" r="1.4"/></svg>
-            </div>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 8h11v8H3zM14 11l5-3v8l-5-3"/><circle cx="8.5" cy="12" r="1.4"/></svg></div>
             <h3>Відеоспостереження</h3>
             <p>Цілодобовий відеонагляд за зонами загального користування території.</p>
           </article>
-          <!-- 6 -->
           <article class="card reveal" style="--d:.12s">
             <div class="card__no">06</div>
-            <div class="card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M15 3 9 9M21 5l-2-2M6 12l6 6M6 12c-2 2-3 6-3 6s4-1 6-3"/></svg>
-            </div>
-            <h3>Прибирання території</h3>
-            <p>Регулярне прибирання від сміття влітку та своєчасне розчищення снігу взимку.</p>
+            <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M15 3 9 9M21 5l-2-2M6 12l6 6M6 12c-2 2-3 6-3 6s4-1 6-3"/></svg></div>
+            <h3>Прибирання та сніг</h3>
+            <p>Прибирання території від сміття влітку та розчищення снігу взимку.</p>
           </article>
         </div>
 
-        <!-- request strip -->
         <div class="cards" style="grid-template-columns:1fr;margin-top:14px">
           <article class="card card--cta reveal">
             <div>
@@ -205,36 +261,28 @@
 
     <!-- ============ GALLERY ============ -->
     <section class="section section--tight" id="gallery">
-      <span class="ghost" aria-hidden="true">03</span>
+      <span class="ghost" aria-hidden="true">05</span>
       <div class="wrap">
         <div class="section-head reveal" style="margin-bottom:46px">
-          <span class="eyebrow">Атмосфера</span>
-          <h2 class="h-lg">Життя в «Гавані»</h2>
+          <span class="eyebrow">Реальні фото</span>
+          <h2 class="h-lg">Краєвиди «Гавані»</h2>
         </div>
         <div class="gallery__grid reveal">
           <figure class="g-wide g-tall">
-            <img src="assets/img/havan-real.jpeg" alt="Котеджне містечко «Гавань» з висоти" />
-            <figcaption><span>Наше містечко</span>Будинки вздовж води</figcaption>
+            <img src="assets/img/aerial-canal.jpg" alt="Річка Десна та будинки містечка з висоти" loading="lazy" />
+            <figcaption><span>Річка Десна</span>Перша лінія води</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/home-dusk.jpg" alt="Сучасний будинок увечері" />
-            <figcaption><span>Дім</span>Затишок вечорами</figcaption>
+            <img src="assets/img/aerial-waterfront.jpg" alt="Набережна та будинки біля води" loading="lazy" />
+            <figcaption><span>Набережна</span>Будинки біля води</figcaption>
           </figure>
           <figure>
-            <img src="assets/img/nature-lake.jpg" alt="Водойма та осінній ліс" />
-            <figcaption><span>Природа</span>Вода і дерева поруч</figcaption>
-          </figure>
-          <figure class="g-tall">
-            <img src="assets/img/home-white.jpg" alt="Світлий приватний будинок" />
-            <figcaption><span>Архітектура</span>Приватний простір</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/img/nature-path.jpg" alt="Алея серед дерев" />
-            <figcaption><span>Прогулянки</span>Зелені алеї</figcaption>
+            <img src="assets/img/aerial-plots.jpg" alt="Земельні ділянки містечка з висоти" loading="lazy" />
+            <figcaption><span>Ділянки</span>Простір для забудови</figcaption>
           </figure>
           <figure class="g-wide">
-            <img src="assets/img/nature-field.jpg" alt="Зелені луки навколо містечка" />
-            <figcaption><span>Простір</span>Зелень навколо</figcaption>
+            <img src="assets/img/aerial-river.jpg" alt="Краєвид річки та природи навколо містечка" loading="lazy" />
+            <figcaption><span>Природа</span>Краса Десни навколо</figcaption>
           </figure>
         </div>
       </div>
@@ -242,7 +290,7 @@
 
     <!-- ============ NEWS ============ -->
     <section class="section news" id="news">
-      <span class="ghost" aria-hidden="true">04</span>
+      <span class="ghost" aria-hidden="true">06</span>
       <div class="wrap">
         <div class="services__head">
           <div class="section-head reveal">
@@ -252,7 +300,7 @@
         </div>
         <div class="news__list">
           <article class="post reveal">
-            <div class="post__media"><img src="assets/img/home-estate.jpg" alt="" /></div>
+            <div class="post__media"><img src="assets/img/aerial-waterfront.jpg" alt="" loading="lazy" /></div>
             <div class="post__body">
               <span class="post__date">31 січня 2017</span>
               <h3>Перехід на нову обслуговуючу організацію</h3>
@@ -261,7 +309,7 @@
             </div>
           </article>
           <article class="post reveal" style="--d:.08s">
-            <div class="post__media"><img src="assets/img/mist.jpg" alt="" /></div>
+            <div class="post__media"><img src="assets/img/aerial-river.jpg" alt="" loading="lazy" /></div>
             <div class="post__body">
               <span class="post__date">17 лютого 2016</span>
               <h3>Планове відключення електроенергії</h3>
@@ -270,12 +318,12 @@
             </div>
           </article>
           <article class="post reveal" style="--d:.16s">
-            <div class="post__media"><img src="assets/img/home-pool.jpg" alt="" /></div>
+            <div class="post__media"><img src="assets/img/vision.jpg" alt="" loading="lazy" /></div>
             <div class="post__body">
               <span class="post__date">Анонс</span>
-              <h3>Слідкуйте за оновленнями</h3>
-              <p>Тут з’являтимуться повідомлення про планові роботи, зміни в обслуговуванні та життя містечка.</p>
-              <a class="post__more" href="#contact">Підписатися <span>→</span></a>
+              <h3>Розвиток містечка триває</h3>
+              <p>Нові ділянки, благоустрій набережної та території. Слідкуйте за оновленнями або запитайте про вільні ділянки.</p>
+              <a class="post__more" href="#plots">Дізнатися більше <span>→</span></a>
             </div>
           </article>
         </div>
@@ -284,7 +332,7 @@
 
     <!-- ============ DOCUMENTS ============ -->
     <section class="section" id="docs">
-      <span class="ghost" aria-hidden="true">05</span>
+      <span class="ghost" aria-hidden="true">07</span>
       <div class="wrap">
         <div class="section-head reveal" style="margin-bottom:46px">
           <span class="eyebrow">Документи</span>
@@ -296,18 +344,18 @@
             <span class="doc__main"><h3>Договір про надання послуг</h3><small>PDF · основний документ обслуговування</small></span>
             <span class="doc__dl" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4v11m0 0 4-4m-4 4-4-4M5 20h14"/></svg></span>
           </a>
-          <div class="doc reveal" style="--d:.08s">
-            <span class="doc__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H6v18h12V7l-4-4Z"/><path d="M14 3v4h4"/></svg></span>
-            <span class="doc__main"><h3>Тарифи та реквізити</h3><small>Надаються за запитом — напишіть нам</small></span>
+          <a class="doc reveal" style="--d:.08s" href="#plots">
+            <span class="doc__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3Z"/><path d="M9 3v15M15 6v15"/></svg></span>
+            <span class="doc__main"><h3>Генеральний план</h3><small>Схема ділянок — вільні, продані, заброньовані</small></span>
             <span class="doc__dl" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></span>
-          </div>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- ============ FAQ ============ -->
     <section class="section faq" id="faq">
-      <span class="ghost" aria-hidden="true">06</span>
+      <span class="ghost" aria-hidden="true">08</span>
       <div class="wrap">
         <div class="faq__grid">
           <div class="section-head reveal">
@@ -319,8 +367,16 @@
 
           <div class="acc reveal" style="--d:.1s">
             <div class="acc__item">
-              <button class="acc__q" aria-expanded="false">Як укласти договір на обслуговування?<span class="pm" aria-hidden="true"></span></button>
-              <div class="answer"><p>Напишіть нам на <a class="gold" href="mailto:gavan@pochtamp.kiev.ua">gavan@pochtamp.kiev.ua</a> — ми надішлемо текст Договору про надання послуг, реквізити та допоможемо з оформленням.</p></div>
+              <button class="acc__q" aria-expanded="false">Як придбати ділянку в «Гавані»?<span class="pm" aria-hidden="true"></span></button>
+              <div class="answer"><p>Напишіть нам на <a class="gold" href="mailto:gavan@pochtamp.kiev.ua">gavan@pochtamp.kiev.ua</a> — ми надішлемо актуальну наявність вільних ділянок, їх вартість та умови придбання.</p></div>
+            </div>
+            <div class="acc__item">
+              <button class="acc__q" aria-expanded="false">Чи є ділянки з виходом до води?<span class="pm" aria-hidden="true"></span></button>
+              <div class="answer"><p>Так. У містечку є ділянки на першій лінії від річки Десна, а також спільна набережна, власний пляж і прибережна зона для всіх мешканців.</p></div>
+            </div>
+            <div class="acc__item">
+              <button class="acc__q" aria-expanded="false">Чи готові комунікації та інфраструктура?<span class="pm" aria-hidden="true"></span></button>
+              <div class="answer"><p>На території облаштовані дороги, освітлення та електропостачання. Обслуговування доріг, мереж і території бере на себе компанія ТОВ «ОО «Гавань» за єдиним договором.</p></div>
             </div>
             <div class="acc__item">
               <button class="acc__q" aria-expanded="false">Що входить в обслуговування?<span class="pm" aria-hidden="true"></span></button>
@@ -329,14 +385,6 @@
             <div class="acc__item">
               <button class="acc__q" aria-expanded="false">Як отримати пропуск на територію?<span class="pm" aria-hidden="true"></span></button>
               <div class="answer"><p>Пропуски та порядок в’їзду оформлюються для мешканців у межах договору. Зверніться до нас — підкажемо актуальний порядок та необхідні дані.</p></div>
-            </div>
-            <div class="acc__item">
-              <button class="acc__q" aria-expanded="false">Чи можна замовити додаткову послугу?<span class="pm" aria-hidden="true"></span></button>
-              <div class="answer"><p>Так. За наявності попиту серед мешканців ми можемо запровадити нову послугу. Надішліть пропозицію — ми оцінимо можливість її надання.</p></div>
-            </div>
-            <div class="acc__item">
-              <button class="acc__q" aria-expanded="false">Ви обслуговуєте інші масиви чи будинки?<span class="pm" aria-hidden="true"></span></button>
-              <div class="answer"><p>Так. Ми готові взяти на обслуговування багатоквартирні будинки, садові товариства, кооперативи тощо. Надішліть вашу пропозицію на нашу пошту.</p></div>
             </div>
           </div>
         </div>
@@ -350,8 +398,8 @@
         <div class="contact__grid">
           <div class="contact__info reveal">
             <span class="eyebrow">Контакти</span>
-            <h2 class="h-lg">Залишилися<br><em class="serif">питання?</em></h2>
-            <p>Напишіть нам — щодо обслуговування, договору, нових послуг або пропозицій про співпрацю. Ми відповідаємо на кожне звернення.</p>
+            <h2 class="h-lg">Запитайте про<br><em class="serif">ділянки</em></h2>
+            <p>Напишіть нам — щодо вільних ділянок, обслуговування, договору чи співпраці. Ми відповідаємо на кожне звернення.</p>
 
             <div class="cinfo">
               <a href="mailto:gavan@pochtamp.kiev.ua">
@@ -360,11 +408,11 @@
               </a>
               <div>
                 <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Z"/><circle cx="12" cy="9" r="2.4"/></svg></span>
-                <span><small>Організація</small><b>ТОВ «ОО «Гавань»</b></span>
+                <span><small>Розташування</small><b>Котеджне містечко «Гавань», р. Десна</b></span>
               </div>
               <div>
                 <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-                <span><small>Звернення</small><b>Цілий рік, на основі договору</b></span>
+                <span><small>Обслуговування</small><b>ТОВ «ОО «Гавань» · цілий рік</b></span>
               </div>
             </div>
           </div>
@@ -382,7 +430,7 @@
             </div>
             <div class="field">
               <label for="message">Повідомлення</label>
-              <textarea id="message" name="message" placeholder="Опишіть ваше питання чи пропозицію" required></textarea>
+              <textarea id="message" name="message" placeholder="Наприклад: цікавлять вільні ділянки біля води" required></textarea>
             </div>
             <button class="btn btn--solid" type="submit">Надіслати <span class="ar">→</span></button>
             <p class="form__note">Кнопка відкриє ваш поштовий застосунок із заповненим листом на адресу gavan@pochtamp.kiev.ua</p>
@@ -401,26 +449,27 @@
             <img src="assets/img/favicon.svg" alt="" width="34" height="34" />
             <span><span class="brand__name">Гавань</span><span class="brand__sub">Котеджне містечко</span></span>
           </a>
-          <p>Затишна спільнота на воді та повний комплекс послуг з обслуговування території для її мешканців.</p>
+          <p>Котеджне містечко на березі Десни: ділянки біля води, готова інфраструктура та повний сервіс для мешканців.</p>
         </div>
         <div class="footer__col">
           <h4>Розділи</h4>
           <a href="#about">Про містечко</a>
+          <a href="#plots">Ділянки</a>
           <a href="#services">Послуги</a>
           <a href="#gallery">Галерея</a>
           <a href="#news">Новини</a>
-          <a href="#docs">Документи</a>
         </div>
         <div class="footer__col">
           <h4>Зв’язок</h4>
           <a href="mailto:gavan@pochtamp.kiev.ua">gavan@pochtamp.kiev.ua</a>
           <a href="#contact">Форма звернення</a>
           <a href="#faq">Часті запитання</a>
+          <a href="#docs">Документи</a>
         </div>
       </div>
       <div class="footer__bottom">
         <span>© <span id="year">2026</span> ТОВ «ОО «Гавань». Усі права захищено.</span>
-        <span>Котеджне містечко «Гавань»</span>
+        <span>Котеджне містечко «Гавань» · р. Десна</span>
       </div>
     </div>
   </footer>
